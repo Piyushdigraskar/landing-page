@@ -1,0 +1,131 @@
+body{
+       display: flex;
+       flex-direction: column;
+       
+}
+
+.header{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       background-color: gray;
+       padding: 34px;
+       margin-bottom: 24px;
+       
+}
+.header-up{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 24px;
+       margin: 24px;
+       
+       
+}
+.logo{
+       font-size: large;
+       color: red;
+       background-color: antiquewhite;
+       padding: 8px;
+}
+ul.items {
+       display: flex;
+       list-style: none;
+       font-size: 24px;
+       margin: 0;
+       padding: 0;
+       gap: 16px;
+}
+button{
+       background-color: blue;
+       color: white;
+       font-size: 24px;
+       padding: 8px 16px;
+       border-radius: 20px;
+      
+}
+
+.header-down{
+       display: flex;
+       justify-content: space-between; /* Ensures equal spacing between the left and right content */
+       align-items: center; /* Aligns items vertically */
+       padding: 24px;
+       gap: 16px;
+}
+img{
+       flex: 1; /* Takes up the remaining space equally */
+       max-width: 100%; /* Ensures the image scales proportionally */
+       height: auto;
+       
+}
+.para{
+       margin-bottom: 44px;
+}
+.head{
+       font-size: 32px;
+       font-weight: bold;
+       color: white;
+}
+.left-header{
+       flex: 1;
+
+}
+.catheading{
+       text-align: center;
+       font-size: 48px;
+}
+.catimage{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       margin-bottom: 24px;
+
+}
+.iinfo{
+       padding: 16px;
+}
+.phead{
+       padding: 24px 48px;
+       margin-bottom: 24px;
+       background-color: lightgray;
+}
+.phead p{
+       font-size: 50px;
+       font-weight: lighter;
+}
+.head3{
+       text-align: end;
+       font-weight: bold;
+}
+.call{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-bottom: 24px;
+}
+.action{
+       background-color: #3882F6;
+       padding: 24px;
+       margin: 24px;
+       border-radius: 20px;
+       display: flex;
+       justify-content: space-between;
+       gap: 16px;
+}
+.submit{
+       background-color: #3882F6;
+       border-color: white;
+       border: solid 3px;
+}
+.footer{
+       background-color: gray;
+       color: white;
+       padding: 24px 48px;
+       
+}
+.footer p{
+       text-align: center;
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 20px;
+       font-weight: bold;
+}
